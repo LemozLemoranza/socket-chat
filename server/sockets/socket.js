@@ -15,7 +15,7 @@ io.on('connection', (client) => {
                 mensaje: 'El nombre/sala es necesario'
             })
         }
-
+ 
         client.join(data.sala)
         
         let personas = usuarios.agregarPersona( client.id , data.nombre, data.sala )
