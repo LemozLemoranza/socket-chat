@@ -14,7 +14,7 @@ app.use(express.static(publicPath));
 
 // IO = esta es la comunicacion del backend
 module.exports.io = socketIO(server);
-require('./server/sockets/socket');
+require('./sockets/socket');
 
 
 
