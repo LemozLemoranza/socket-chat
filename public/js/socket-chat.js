@@ -19,7 +19,7 @@ socket.on('connect', function() {
         renderizarUsuarios(resp)
     });
 
-});
+}); 
 
 // escuchar
 socket.on('disconnect', function() {
